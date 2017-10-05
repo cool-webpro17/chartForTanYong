@@ -1,0 +1,149 @@
+
+a:hover {
+    text-decoration: none;
+}
+
+.background {
+    background: rgb(50, 59, 67);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.btn-container {
+    width: 100%;
+}
+
+.col-btn-container {
+    padding-top: 127px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.btn-avg {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer !important;
+    display: inline-block;
+    border-radius: 2px 0px 0px 2px;
+    transition: all .2s ease-in;
+    background: rgb(41, 53, 59);
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom:2px;
+    margin-top:2px;
+}
+
+.btn-avg:hover {
+    /*background: rgb(23, 178, 89);*/
+    color: white;
+}
+
+.btn-click {
+    background: rgb(23, 178, 89);
+}
+
+.btn-open {
+    background: rgb(8, 98, 144);
+}
+
+.btn-rpr {
+    background: rgb(33, 203, 193);
+}
+
+.background {
+  fill: rgb(50, 59, 67);
+}
+
+.click-foreground {
+  fill: rgb(23, 178, 89);
+}
+
+.open-foreground {
+  fill: rgb(8, 98, 144);
+}
+
+.rpr-foreground {
+  fill: rgb(33, 203, 193);
+}
+
+.label {
+  fill: white;
+  font: 24px sans-serif;
+  text-anchor: middle;
+  alignment-baseline: middle;
+}
+
+section:nth-child(3) .chart .label {
+  font: 13px sans-serif;
+}
+
+.font-18px {
+    font-size: 18px;
+}
+
+.number-font-color {
+    color: rgb(191, 191, 191);
+}
+
+.chart-container {
+    background: rgb(34, 42, 49);
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.email-container {
+    background: url('../img/email.gif');
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 23px;
+    height: 14px;
+    background-size: 100% 100%;
+}
+
+.col-chart-container {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.padding-bottom-41 {
+    padding-top: 23px;
+    padding-bottom: 41px;
+}
+
+.float-left div{
+    float: left;
+    clear: none;
+}
+
+.float-left {
+    padding-top: 15px;
+    padding-left: 40px;
+    width: 100%;
+    height: 18px;
+    display: block;
+}
+
+.circle-chart {
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    .col-btn-container {
+        padding-top: 25px;
+    }
+
+    .float-left  {
+        padding-left: 20px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+}

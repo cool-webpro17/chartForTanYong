@@ -1,0 +1,20 @@
+<section class="background">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-sm-3 col-md-3 col-btn-container">
+				<a href="#/click-rate" class="btn-avg btn-click">AVG. CLICK RATE</a>
+				<a href="#/open-rate" class="btn-avg">AVG. OPEN RATE</a>
+				<a href="#/rpr" class="btn-avg">AVG. RPR</a>
+			</div>
+ 			<div ng-repeat="chartData in chartDatas" ng-if="chartData.FIELD1 != 'Individual email in series'" class="col-xs-6 col-sm-3 col-md-3 col-chart-container">
+ 				<div class="chart-container">
+ 					<div class="float-left">
+						<div class="font-18px number-font-color ">{{ chartData.FIELD1 }}</div>
+						<div class="email-container"></div>
+					</div>
+	 				<div d3-chart chart-data="chartData" type="click" class="text-center padding-bottom-41"></div>
+ 				</div>
+			</div>
+		</div>
+	</div>
+</section>
