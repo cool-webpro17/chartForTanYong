@@ -104,7 +104,7 @@ angular.module('D3ChartDrtv', []).directive('d3Chart', function ($window) {
                         fg.transition()
                           .duration(600)
                           .ease(d3['easeElastic'])
-                          .call(tween(arc), (2 * Math.PI) * value / 10);
+                          .call(tween(arc), (2 * Math.PI) * value / 15);
                         break;
                     default:
                         break;
