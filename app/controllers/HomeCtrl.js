@@ -6,9 +6,7 @@
     var homeControllerFunction = function ($location, $rootScope, $routeParams, $scope) {
 
         $scope.init = function () {
-            $('html, body').animate({
-                scrollTop: 0
-            }, 500);
+
         };
 
         $scope.chartDatas = [

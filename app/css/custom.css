@@ -147,3 +147,9 @@ section:nth-child(3) .chart .label {
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 992px) and (min-width: 500px) {
+    .col-btn-container {
+        padding-top: 67px;
+    }
+}
